@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="189" height="208.465" viewBox="0 0 189 208.465">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_56255" data-name="Rectángulo 56255" width="189" height="208.465" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_181410" data-name="Grupo 181410" transform="translate(-600 -672)">
+    <g id="Grupo_181031" data-name="Grupo 181031" transform="translate(600 672)">
+      <g id="Grupo_181030" data-name="Grupo 181030" clip-path="url(#clip-path)">
+        <path id="Trazado_209373" data-name="Trazado 209373" d="M137.894,239.083H51.105A51.105,51.105,0,0,1,0,187.977V101.189A51.105,51.105,0,0,1,51.105,50.083h86.789A51.105,51.105,0,0,1,189,101.189v86.789a51.106,51.106,0,0,1-51.106,51.106" transform="translate(0 -30.618)" fill="#1fb5a3"/>
+        <path id="Trazado_209374" data-name="Trazado 209374" d="M137.894,189H51.105A51.105,51.105,0,0,1,0,137.894V51.105A51.105,51.105,0,0,1,51.105,0h86.789A51.105,51.105,0,0,1,189,51.105v86.789A51.106,51.106,0,0,1,137.894,189" fill="#32d9cb"/>
+        <path id="Trazado_209375" data-name="Trazado 209375" d="M37.715,161.151V73.964A36.249,36.249,0,0,1,73.964,37.715h87.187A36.249,36.249,0,0,1,197.4,73.964v87.187A36.249,36.249,0,0,1,161.151,197.4H73.964a36.249,36.249,0,0,1-36.249-36.249" transform="translate(-23.057 -23.057)" fill="#fff"/>
+      </g>
+    </g>
+    <path id="Icon_ionic-md-paper-plane" data-name="Icon ionic-md-paper-plane" d="M3.375,54.278,28.516,64.463l3.129,33.912,15.711-23.75,21.991,23.75,21.991-95ZM65.731,83.052,48.2,63.983,72.5,27.125,34.162,58.594,19.635,52.93,81.167,17.26Z" transform="translate(647.144 714.125)" fill="#32d9cb"/>
+  </g>
+</svg>
