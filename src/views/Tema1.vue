@@ -84,8 +84,8 @@
         .col-md-8.mb-4.mb-md-0
           p En la segmentación de clientes, no necesariamente debe seleccionar un solo segmento; de tal forma, que se pueden identificar uno, dos o más segmentos de clientes, esto obedece a la propuesta de valor y los productos/servicios que se pretendan ofertar. 
           p Atendiendo a Osterwalder & Pigneur (2010) se puede hacer dos preguntas orientadoras para la descripción del segmento clientes:
-          p.text-center.mb-0 ¿Para quién creamos valor?
-          p.text-center.mb-0 ¿Cuáles son nuestros clientes más importantes?
+          h5.text-center.mb-0 ¿Para quién creamos valor?
+          h5.text-center.mb-0 ¿Cuáles son nuestros clientes más importantes?
         .col-md-3
           figure
             img(src='@/assets/curso/tema1-1-acord1.png', alt='Segmentación de Clientes')
@@ -106,51 +106,51 @@
               p.mb-0 - Reducción de riesgos
               p.mb-0 - Comodidad / utilidad
           p.mb-0 Las siguientes preguntas orientadoras ayudarán a formular la propuesta de valor: 
-          p.mb-0 ¿Qué valor proporcionamos a nuestros clientes?
-          p.mb-0 ¿Qué problema de nuestros clientes ayudamos a solucionar?
-          p.mb-0 ¿Qué necesidades de los clientes satisfacemos?
-          p.mb-0 ¿Qué paquetes de productos o servicios ofrecemos a cada segmento de mercado?
+          h5.mb-0 ¿Qué valor proporcionamos a nuestros clientes?
+          h5.mb-0 ¿Qué problema de nuestros clientes ayudamos a solucionar?
+          h5.mb-0 ¿Qué necesidades de los clientes satisfacemos?
+          h5.mb-0 ¿Qué paquetes de productos o servicios ofrecemos a cada segmento de mercado?
         .col-md-3
           figure
             img(src='@/assets/curso/tema1-1-acord2.png', alt='Propuesta de valor')
       .row.justify-content-center(titulo="Canales")
         .col-md-7.mb-4.mb-md-0
           p Las preguntas orientadoras para la formulación del bloque: 
-          p.mb-0 ¿Qué canales prefieren nuestros segmentos de mercado?
-          p.mb-0 ¿Cómo establecemos actualmente el contacto con los clientes?
-          p.mb-0 ¿Cuáles tienen mejores resultados? ¿Cuáles son más rentables?
-          p.mb-0 ¿Cómo se integran en las actividades diarias de los clientes?
+          h5.mb-0 ¿Qué canales prefieren nuestros segmentos de mercado?
+          h5.mb-0 ¿Cómo establecemos actualmente el contacto con los clientes?
+          h5.mb-0 ¿Cuáles tienen mejores resultados? ¿Cuáles son más rentables?
+          h5.mb-0 ¿Cómo se integran en las actividades diarias de los clientes?
         .col-md-4
           figure
             img(src='@/assets/curso/tema1-1-acord3.png', alt='Canales')
       .row.justify-content-center(titulo="Relaciones con los clientes")
         .col-md-8.mb-4.mb-md-0
           p Hay preguntas orientadoras que ayudarán a marcar la guía para las estrategias que se definirán en el bloque, así: 
-          p.mb-0 ¿Qué tipo de relación esperan los diferentes segmentos de mercado? 
-          p.mb-0 ¿Cuál es su costo?
-          p.mb-0 ¿Cómo se integran en nuestro modelo de negocio?
+          h5.mb-0 ¿Qué tipo de relación esperan los diferentes segmentos de mercado? 
+          h5.mb-0 ¿Cuál es su costo?
+          h5.mb-0 ¿Cómo se integran en nuestro modelo de negocio?
         .col-md-3
           figure
             img(src='@/assets/curso/tema1-1-acord4.png', alt='Relaciones con los clientes')
       .row.justify-content-center(titulo="Fuente de ingresos")
         .col-md-7.mb-4.mb-md-0
           p Las siguientes preguntas orientadoras, ayudarán en la descripción de este componente:
-          p.mb-0 ¿Por qué valor están dispuestos a pagar nuestros clientes?
-          p.mb-0 ¿Cómo les gustaría pagar?
+          h5.mb-0 ¿Por qué valor están dispuestos a pagar nuestros clientes?
+          h5.mb-0 ¿Cómo les gustaría pagar?
         .col-md-4
           figure
             img(src='@/assets/curso/tema1-1-acord5.png', alt='Fuente de ingresos')      
       .row.justify-content-center(titulo="Recursos claves")
         .col-md-7.mb-4.mb-md-0
           p Estas preguntas orientadoras, permitirán al emprendedor reconocer cuáles son sus recursos claves, teniendo en cuenta la propuesta de valor definida, el segmento y relación con sus clientes y sus canales para la comercialización del producto o servicio.
-          p.mb-0 ¿Qué recursos clave requiere la propuesta de valor, los canales de distribución, relaciones con clientes y fuentes de ingresos?
+          h5.mb-0 ¿Qué recursos clave requiere la propuesta de valor, los canales de distribución, relaciones con clientes y fuentes de ingresos?
         .col-md-4
           figure
             img(src='@/assets/curso/tema1-1-acord6.png', alt='Recursos claves') 
       .row.justify-content-center(titulo="Actividades claves")
         .col-md-7.mb-4.mb-md-0
           p Las preguntas orientadoras, marcarán la pauta para la descripción del bloque:
-          p ¿Qué actividades clave requieren nuestras propuestas de valor, canales de distribución, relaciones con clientes y fuentes de ingresos?
+          h5 ¿Qué actividades clave requieren nuestras propuestas de valor, canales de distribución, relaciones con clientes y fuentes de ingresos?
           p.mb-0 Para la identificación de las actividades claves es fundamental reconocer el proceso productivo requerido para el o los productos que se ofertarán o en caso, de ofrecer servicios, entonces las actividades necesarias para la prestación del servicio; otra orientación importante para las actividades claves es no perder de vista los recursos claves definidos en el componente anterior. 
         .col-md-4
           figure
@@ -158,19 +158,19 @@
       .row.justify-content-center(titulo="Asociaciones clavess")
         .col-md-7.mb-4.mb-md-0
           p Las siguientes preguntas orientadoras, ayudarán a dar respuesta a este componente:
-          p.mb-0 ¿Quiénes son nuestros socios clave?
-          p.mb-0 ¿Quiénes son nuestros proveedores clave?
-          p.mb-0 ¿Qué recursos clave adquirimos a nuestros socios?
-          p.mb-0 ¿Qué actividades clave realizan los socios?
+          h5.mb-0 ¿Quiénes son nuestros socios clave?
+          h5.mb-0 ¿Quiénes son nuestros proveedores clave?
+          h5.mb-0 ¿Qué recursos clave adquirimos a nuestros socios?
+          h5.mb-0 ¿Qué actividades clave realizan los socios?
         .col-md-4
           figure
             img(src='@/assets/curso/tema1-1-acord8.png', alt='Asociaciones claves') 
       .row.justify-content-center(titulo="Estructuras de costos")
         .col-md-7.mb-4.mb-md-0
           p Las siguientes preguntas orientadoras ayudarán a dar respuesta a este componente:
-          p.mb-0 ¿Cuáles son los costos más importantes inherentes a nuestro modelo de negocio? 
-          p.mb-0 ¿Cuáles son los recursos clave más caros? 
-          p.mb-0 ¿Cuáles son las actividades clave más caras?
+          h5.mb-0 ¿Cuáles son los costos más importantes inherentes a nuestro modelo de negocio? 
+          h5.mb-0 ¿Cuáles son los recursos clave más caros? 
+          h5.mb-0 ¿Cuáles son las actividades clave más caras?
         .col-md-4
           figure
             img(src='@/assets/curso/tema1-1-acord9.png', alt='Estructuras de costos') 
@@ -192,6 +192,104 @@
           img(src='@/assets/curso/tema1-2-fig.svg', alt='Formas jurídicas')
 
     p.mb-4(data-aos="fade") Ahora bien, es bueno conocer su clasificación: 
+
+    TabsB.color-primario.mb-5
+      .py-4.py-md-5(titulo="Cooperativas y su división" :icono="require('@/assets/curso/nada.png')")
+        .row.justify-content-around.align-items-center
+          .col-md-6.mb-4.mb-md-0
+            h4 Cooperativas
+            p Es una empresa asociativa, sin ánimo de lucro, en la cual los asociados, según el caso, son simultáneamente los aportantes y los gestores de la empresa, creada con el objeto de producir o distribuir conjunta y eficientemente bienes o servicios para satisfacer las necesidades de sus asociados y de la comunidad en general. 
+          .col-md-3
+            img(src='@/assets/curso/tema1-2-tab1.png', alt='Fondo de empleados')
+      .py-4.py-md-5(titulo="Fondo de empleados" :icono="require('@/assets/curso/nada.png')")
+        .row.justify-content-around.align-items-center
+          .col-md-6.mb-4.mb-md-0
+            h4 Fondo de empleados
+            p Los fondos de empleados son organizaciones pertenecientes al sector de la economía solidaria, de derecho privado, sin ánimo de lucro, constituidas por trabajadores dependientes, trabajadores asociados o por servidores públicos que ofrecen servicios. 
+          .col-md-3
+            img(src='@/assets/curso/tema1-2-tab2.png', alt='Fondo de empleados')
+      .py-4.py-md-5(titulo="Asociaciones mutuales" :icono="require('@/assets/curso/nada.png')")
+        .row.justify-content-around.align-items-center
+          .col-md-6.mb-4.mb-md-0
+            h4 Asociaciones mutuales
+            p Son organizaciones privadas sin ánimo de lucro que están constituidas por personas naturales para fomentar la ayuda recíproca entre sus miembros, satisfaciendo sus necesidades mediante la prestación de servicios que contribuyan al mejoramiento de su calidad de vida.
+          .col-md-3
+            img(src='@/assets/curso/tema1-2-tab3.png', alt='Asociaciones mutuales')
+      .py-4.py-md-5(titulo="Entidades auxiliares de la economía solidaria" :icono="require('@/assets/curso/nada.png')")
+        .row.justify-content-around.align-items-center
+          .col-md-6.mb-4.mb-md-0
+            h4 Entidades auxiliares de la economía solidaria
+            p Son organizaciones que tienen como finalidad realizar actividades para fortalecer al sector solidario. Están constituidas bien sea por organizaciones de la economía solidaria o por personas naturales para realizar actividades orientadas al desarrollo del sector solidario.
+          .col-md-4
+            img(src='@/assets/curso/tema1-2-tab4.png', alt='Entidades auxiliares de la economía solidaria')      
+    
+
+    p.mb-4(data-aos="fade") Y por último, saber que las cooperativas se dividen en razón al desarrollo de sus actividades, tal como se evidencia en la siguiente figura:
+
+    
+
+
+
+    p.mb-4(data-aos="fade") Ahora bien, de acuerdo con toda esta clasificación, se hace necesario conocer su marco normativo más relevante para el impulso del emprendimiento y de las organizaciones de economía solidaria, lo cual se explica en la siguiente tabla: 
+
+
+
+
+
+
+
+
+    Separador
+
+
+    #t_1_3
+    .titulo-segundo.color-primario
+      h2 1.3. Modelo estatutario
+
+    .row.align-items-center.mb-5
+      .col-md-6.mb-4.mb-md-0(data-aos="fade-left")
+        img.px-4(src='@/assets/curso/tema1-3-img.png', alt='Imagen decorativa')
+      .col-md-6(data-aos="fade-right")
+        .row.align-items-center.mb-3
+          .col-2
+            img(src='@/assets/curso/tema1-3-check.png', alt='Check' style="width: 45px;")
+          .col-10.bg-gris.bordes-curvos.py-4.px-4
+            h5.mb-0 Las relaciones dentro de la organización.
+        .row.align-items-center.mb-3
+          .col-2
+            img(src='@/assets/curso/tema1-3-check.png', alt='Check' style="width: 45px;")
+          .col-10.bg-gris.bordes-curvos.py-4.px-4
+            h5.mb-0 Sus relaciones con el entorno.
+        .row.align-items-center.mb-3
+          .col-2
+            img(src='@/assets/curso/tema1-3-check.png', alt='Check' style="width: 45px;")
+          .col-10.bg-gris.bordes-curvos.py-4.px-4
+            h5.mb-0 Sus derechos y obligaciones.
+        .row.align-items-center.mb-3
+          .col-2
+            img(src='@/assets/curso/tema1-3-check.png', alt='Check' style="width: 45px;")
+          .col-10.bg-gris.bordes-curvos.py-4.px-4
+            h5.mb-0 Los órganos de administración y control, sus atribuciones y facultades.
+        .row.align-items-center.mb-3
+          .col-2
+            img(src='@/assets/curso/tema1-3-check.png', alt='Check' style="width: 45px;")
+          .col-10.bg-gris.bordes-curvos.py-4.px-4
+            h5.mb-0 El régimen económico de la organización.      
+    
+    p.mb-5(data-aos="fade") Para una correcta elaboración de los estatutos, es importante que se haga una creación colectiva de los mismos, donde cada asociado, responda las siguientes preguntas orientadoras que les ayudarán a su elaboración:
+
+    .row.justify-content-center.mb-5
+      h4.mb-5 Preguntas orientadoras
+      .col-md-5
+        .mb-3.bg-acento-botones.bordes-curvos.py-4.px-4
+          h5.mb-0.text-white ¿Cuál será el nombre o razón social?
+        .mb-3.bg-primario.bordes-curvos.py-4.px-4
+          h5.mb-0.text-white ¿Dónde funcionará?
+
+
+
+
+
 
 
 
