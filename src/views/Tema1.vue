@@ -59,7 +59,7 @@
             h4.text-white.px-md-3 Lienzo CANVAS de COOPMUJERES
             p.mb-0.text-white.px-md-3 Como material complementario encontrarán el lienzo CANVAS o modelo de negocio de la Cooperativa de Mujeres emprendedoras de Cúcuta, COOPMUJERES. Un emprendimiento social apoyado por la Cámara de Comercio de Cúcuta y enfocado a fortalecer las mujeres emprendedoras de la ciudad; este modelo les ayudará como referencia para que a partir del caso propuesto, analicen y construyan el modelo de negocio, teniendo en cuenta los elementos claves para cada módulo y las preguntas orientadoras. 
       .col-md-3.contenedor-imagenes
-        img(src='@/assets/curso/tema1-icono.svg' alt='Imagen decorativa')
+        img(src='@/assets/curso/tema1-icono.svg' alt='Imagen decorativa' style="width: 230px")
 
     Separador
 
@@ -239,6 +239,17 @@
 
 
 
+    .row.tema1-2-rectangulo.justify-content-center.align-items-center.mb-4(data-aos="fade-down")
+      .col-md-9.py-5.py-md-2
+        .row.justify-content-end
+         .col-md-11
+            h5.text-white.px-md-3.mb-0 Para profundizar en las características de estas formas jurídicas asociativas, se puede consultar la normativa en el material complementario. 
+      .col-md-3.contenedor-imagenes
+        img(src='@/assets/curso/tema1-icono.svg' alt='Imagen decorativa' style="width: 230px")
+
+    h5.mb-4(data-aos="fade")  Por lo tanto, como se mencionaba, el equipo emprendedor después de modelar su idea de emprendimiento social, continúa con reconocer las características más relevantes de la forma jurídica para que de manera conjunta seleccionen la forma jurídica más apropiada y pertinente para los objetivos estratégicos y la naturaleza y el sentir de los asociados. 
+
+    h5(data-aos="fade")  En consecuencia, una de las formas jurídicas más utilizadas para las organizaciones de economía solidaria son las cooperativas en cualquiera de sus clases; ya que estas a partir de su naturaleza o su razón de ser, ejerce toda actividad económica, social o cultural, es decir, que ofrece un abanico de oportunidades para modelos de negocios para el emprendimiento social. 
 
     Separador
 
@@ -308,19 +319,113 @@
         .mb-3.bg-gris.bordes-curvos.bordes-azul.py-4.px-4
           h5.mb-0 ¿Cuál es el conducto regular para hacer reformas?
 
-    .row.justify-content-center(data-aos="fade-down")
+    .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-md-10.tarjeta.bg-1
         .row.justify-content-center.align-items-center.py-3  
           .col-10
             h5.mb-0 <b style="font-size: 18px;">La Ley 79 de 1988</b>, en el artículo 19, contiene los elementos para tener en cuenta en la elaboración de los estatutos de la futura cooperativa; las preguntas orientadoras ayudarán a los asociados a estructurar los estatutos cumpliendo los lineamientos de la normativa. 
 
+    h5.mb-5(data-aos="fade") Es importante que, la futura cooperativa cuente con el acompañamiento profesional jurídico, con el fin de que se cumplan los parámetros de la legislación y que no existan novedades u observaciones para su constitución que se realizan ante las Cámaras de Comercio del lugar de domicilio de la cooperativa. 
+
+    .row.tema1-3-rectangulo.justify-content-center(data-aos="fade-down")
+      .col-md-9.py-5.py-md-2
+        .row.justify-content-end
+         .col-md-11
+            h4.text-white.px-md-3.mt-3 Estatutos 
+            h5.text-white.px-md-3 En el material complementario se encuentra un ejemplo de los estatutos de la cooperativa multiactiva – “ACTIVACOOP”, cooperativa de aporte y crédito, que comenzó como el fondo de empleados del hospital universitario Clínica San Rafael, y oficialmente se constituyó en 1999 el 28 de diciembre con la firma de 26 asociados. 
+            h5.text-white.px-md-3 También se encuentra un documento guía de la Cámara de Comercio de Bogotá del acta de constitución y los estatutos básicos de la cooperativa, el cual sirve de apoyo y facilita la comprensión de los elementos claves a tener en cuenta para la elaboración del acta de constitución y los estatutos de la cooperativa, siendo estos, dos requisitos fundamentales solicitados por las Cámaras de Comercio para su constitución jurídica. 
+      .col-md-3.contenedor-imagenes
+        img(src='@/assets/curso/tema1-icono.svg' alt='Imagen decorativa', style="width:220px")
 
 
+    Separador
 
 
+    #t_1_4
+    .titulo-segundo.color-primario
+      h2 1.4. Deberes y derechos del asociado
 
+    p.mb-4(data-aos="fade") El capítulo III de la Ley 79 de 1988 puntualiza, en el artículo 21, que podrán ser asociados de las cooperativas las siguientes personas:
 
+    .row.justify-content-center.mb-5(data-aos="fade-down")
+      .col-md-10
+        figure
+          img(src='@/assets/curso/tema1-4-infografia.svg', alt='Asociados de las cooperativas')
 
+    p.mb-4(data-aos="fade") Con el impulso dado por la Ley 2069 de 2020, ley que impulsa el emprendimiento en Colombia, acerca mucho más las MiPymes al sector solidario y fortalece la economía solidaria productiva del país con formas jurídicas poco utilizadas en el mundo de los negocios pero que sin duda constituye una alternativa legal sostenible donde prevalece el desarrollo integral de sus asociados y el bien común. 
+
+    p.mb-5(data-aos="fade") Igualmente, el artículo 22 de la misma ley, establece la calidad de asociado de una cooperativa que se adquiere:
+
+    ol.lista-ol.px-md-5.px-2.mb-5
+      li.mb-0
+        span 1. 
+        | Para los fundadores, a partir de la fecha de la asamblea de constitución, y
+      li 
+        span 2. 
+        | Para los que ingresen posteriormente, a partir de la fecha que sean aceptados por el órgano competente.
+
+    p.mb-4(data-aos="fade") Con la calidad de asociados de los integrantes de la cooperativa, privilegia sus derechos y así mismo otorga deberes, que se constituyen en piezas claves para el éxito en la gestión empresarial durante el desarrollo de sus actividades económicas. 
+
+    p.mb-5(data-aos="fade") El artículo 23 de la Ley 79 de 1988, establece lo siguiente: 
+
+    .row.justify-content-center.mb-5
+      .col-md-10 
+        .row.justify-content-center.mb-4.tema1-4-fondo1
+          .tarjeta.py-5.py-md-0.px-md-4.px-lg-5.px-3
+            h4.text-center Derechos del asociado
+            ol.lista-ol.mb-0.mb-md-3
+              li.mb-0
+                span.text-bold 1. 
+                | Utilizar los servicios de la cooperativa y realizar con ella las operaciones propias de su objetivo social.
+              li.mb-0
+                span.text-bold 2. 
+                | Participar en las actividades de la cooperativa y en su administración mediante el desempeño de cargos sociales.
+              li.mb-0 
+                span.text-bold 3. 
+                | Ser informado de la gestión de la cooperativa de acuerdo con las prescripciones estatutarias.
+              li.mb-0 
+                span.text-bold 4. 
+                | Ejercer actos de decisión y elección en las asambleas generales.
+              li.mb-0 
+                span.text-bold 5. 
+                | Fiscalizar la gestión de la cooperativa.
+              li.mb-0
+                span.text-bold 6. 
+                | Retirarse voluntariamente de la cooperativa.
+        .wrap-player
+          audio(controls='')(style= "width: 100%")
+            // source(src='../../public/downloads/Importancia_de_estos_fenomenos_fisicos.mp3' type='audio/mp3')
+            |  Your browser does not support the audio tag   
+
+    p.mb-4(data-aos="fade") El ejercicio de los derechos estará condicionado al cumplimiento de los deberes. El artículo 24 de la Ley 79 de 1988, establece:
+
+    .row.justify-content-center.mb-1
+      .col-md-11.col-xxl-10
+        .row.justify-content-center.mb-4.tema1-4-fondo2
+          .col-md-6.tarjeta.py-5.py-md-0.px-md-3.px-lg-4.px-3
+            ol.lista-ol.mb-0.mb-md-3
+              li.mb-0
+                span.text-bold 1. 
+                | Adquirir conocimiento sobre los principios básicos del cooperativismo, características del acuerdo cooperativo y estatutos que rigen la entidad.
+              li.mb-0
+                span.text-bold 2. 
+                | Cumplir las obligaciones derivadas del acuerdo cooperativo.
+                | Aceptar y cumplir las decisiones de los órganos de administración y vigilancia.
+              li.mb-0 
+                span.text-bold 3. 
+                | Comportarse solidariamente en sus relaciones con la cooperativa y con los asociados de las misma.
+              li.mb-0 
+                span.text-bold 4. 
+                | Abstenerse de efectuar actos o de incurrir en omisiones que afecten la estabilidad económica o el prestigio social de la cooperativa.
+
+    .row.justify-content-center.tema1-4.mb-4
+      .col-md-10 
+        .tarjeta-ultima.mb-4.px-md-4.px-3.py-3
+          p.mb-0 Tanto los deberes y derechos del asociado a las cooperativas van de la mano y buscan promover los principios de adhesión voluntaria, responsable y abierta y de autonomía, autodeterminación y autogobierno, donde cada asociado de una manera consciente y voluntaria no solamente exige sus derechos sino primero cumple con sus deberes, personificando el sentir del sector solidario coherentes con los principios que se profesan. 
+        .wrap-player
+          audio(controls='')(style= "width: 100%")
+            // source(src='../../public/downloads/Importancia_de_estos_fenomenos_fisicos.mp3' type='audio/mp3')
+            |  Your browser does not support the audio tag
 
 </template>
 
