@@ -7,7 +7,7 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.tarjeta--azul.h-100.d-flex.align-items-center
           figure
-            img(src="@/assets/template/emparejamiento.svg", alt="Texto que describa la imagen")
+            img(src="@/assets/curso/act1.svg", alt="Texto que describa la imagen" style="width: 150px; margin: 0 auto;")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Estructuración de modelos de negocio
@@ -25,7 +25,7 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.tarjeta--azul.h-100.d-flex.align-items-center
           figure
-            img(src="@/assets/template/opcion-multiple.svg", alt="Texto que describa la imagen")
+            img(src="@/assets/curso/act2.svg", alt="Texto que describa la imagen" style="width: 150px; margin: 0 auto;")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Características de las formas asociativas para las empresas de economía solidaria

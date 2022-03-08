@@ -38,9 +38,17 @@
                 p De acuerdo con Osterwalder & Pigneur (2010), la manera más acertada de describir un modelo de negocio es hacer la distribución desde los nueve módulos básicos que reflejen el método al que atiende una empresa para obtener sus ingresos. 
 
 
-    p.mb-4(data-aos="fade") Los nueve módulos o bloques nombrados en la introducción de este componente, atienden a cuatro áreas principales de un negocio, clientes, oferta, infraestructura y viabilidad económica. A continuación, se presenta la descripción de estos módulos: 
+    p.mb-4(data-aos="fade") 
 
-
+    .row.justify-content-center.mb-5
+      .col-md-10(data-aos="fade-down")
+        .row.align-items-center.tarjeta.bg-naranja.p-3.px-md-4
+            .col.mb-3.mb-sm-0
+              p.text-white.mb-0 Los nueve módulos o bloques nombrados en la introducción de este componente, atienden a cuatro áreas principales de un negocio, clientes, oferta, infraestructura y viabilidad económica. A continuación, se presenta la descripción de estos módulos:  
+            .col-sm-auto
+              a.boton.color-primario(:href="obtenerLink('/downloads/Presentacion_interactiva.pdf')" target="_blank")
+                span Descargar
+                i.fas.fa-file-download
 
 
     p.mb-4(data-aos="fade") En este sentido, se hace claridad del objetivo y la finalidad de cada bloque que compone el Lienzo CANVAS. A continuación, se presenta la estructura completa del Lienzo: 
@@ -225,19 +233,175 @@
             img(src='@/assets/curso/tema1-2-tab4.png', alt='Entidades auxiliares de la economía solidaria')      
     
 
-    p.mb-4(data-aos="fade") Y por último, saber que las cooperativas se dividen en razón al desarrollo de sus actividades, tal como se evidencia en la siguiente figura:
+    p.mb-5(data-aos="fade") Y por último, saber que las cooperativas se dividen en razón al desarrollo de sus actividades, tal como se evidencia en la siguiente figura:
 
+    .row.tema1-2-tarjetas-hover.justify-content-around.mb-4
+      .col.mb-3
+        .hovers
+          .decoracion.mb-2
+            img(src='@/assets/curso/tema1-2-tarjeta-ico1.svg', alt='Icono decorativo') 
+          .linea-1
+          .linea-2
+          .texto
+            p.mb-0 Atienden a una necesidad específica, correspondiente a una clase de actividad económica, social y cultural. 
+      .col.mb-3
+        .hovers
+          .decoracion.mb-2
+            img(src='@/assets/curso/tema1-2-tarjeta-ico2.svg', alt='Icono decorativo') 
+          .linea-1
+          .linea-2
+          .texto
+            p.mb-0 Aquellas que, en el desarrollo de su objeto social, realizan dos o más actividades complementarias entre sí, en la generación de un bien o servicio.
+      .col.mb-3
+        .hovers.hover-columna(@mouseover="mostrarIndicador = false")
+          .indicador--click(v-if="mostrarIndicador")
+          .decoracion.mb-2
+            img(src='@/assets/curso/tema1-2-tarjeta-ico3.svg', alt='Icono decorativo') 
+          .linea-1
+          .linea-2
+          .texto  
+            p.mb-0 Atienden varias necesidades mediante la concurrencia de servicios en una sola entidad.
+      .col.mb-3
+        .hovers
+          .decoracion.mb-2
+            img(src='@/assets/curso/tema1-2-tarjeta-ico4.svg', alt='Icono decorativo') 
+          .linea-1
+          .linea-2
+          .texto  
+            p.mb-0 Se organizan para realizar actividades permitidas a las cooperativas y, que por carecer de capacidad económica, o educativa, o administrativa, no están en posibilidad de organizarse como cooperativas. 
+      .col.mb-3
+        .hovers
+          .decoracion.mb-2
+            img(src='@/assets/curso/tema1-2-tarjeta-ico5.svg', alt='Icono decorativo') 
+          .linea-1
+          .linea-2
+          .texto  
+            p.mb-0 Asocian personas naturales que simultáneamente son gestoras y aportantes directos de su capacidad de trabajo, con el fin de producir en común para satisfacer sus necesidades, el vínculo de asociación se determina por el saber hacer intelectual o material de sus asociados.     
     
 
 
 
-    p.mb-4(data-aos="fade") Ahora bien, de acuerdo con toda esta clasificación, se hace necesario conocer su marco normativo más relevante para el impulso del emprendimiento y de las organizaciones de economía solidaria, lo cual se explica en la siguiente tabla: 
+    p.mb-5(data-aos="fade") Ahora bien, de acuerdo con toda esta clasificación, se hace necesario conocer su marco normativo más relevante para el impulso del emprendimiento y de las organizaciones de economía solidaria, lo cual se explica en la siguiente tabla: 
 
+    .titulo-sexto.color-acento-contenido.mb-4
+        p.mb-0 <b>Tabla 2.</b> Marco normativo de acuerdo a la forma jurídica
+    .tabla-b.tema1-2-tabla1.color-acento-botones.mb-5(data-aos="fade-down")
+      table
+        thead.tabla-b__header
+          tr
+            th.col-1
+              h4.mb-0.text-white Temáticas
+            th 
+              h4.mb-0.text-white Régimen normativo
+        tbody
+          tr
+            th.col-1
+              h4.mb-0 Emprendimiento
+            td Ley 2069 de 2021, por medio del cual se impulsa el emprendimiento en Colombia.
+          tr
+            th 
+              h4.mb-0 Economía solidaria
+            td Decreto 1340 de 2020, por el cual se crea y regula la Comisión Intersectorial del Sector de la Economía Solidaria.
+              br 
+              br
+              | Ley 454 de 1998, por la cual se determina el marco conceptual que regula la economía solidaria, se transforma el Departamento Administrativo Nacional de Cooperativas en el Departamento Nacional de la Economía Solidaria, se crea la Superintendencia de la Economía Solidaria, se crea el Fondo de Garantías para las Cooperativas Financieras y de Ahorro y Crédito, se dictan normas sobre la actividad financiera de las entidades de naturaleza cooperativa y se expiden otras disposiciones.  
+          tr
+            th 
+              h4.mb-0 Cooperativas
+            td Ley 2069 de 2021, por medio del cual se impulsa el emprendimiento en Colombia, artículo 22.
+              br 
+              br
+              | Ley 79 de 1988, por la cual se actualiza la Legislación Cooperativa.
+          tr
+            th 
+              h4.mb-0 Asociaciones mutuales
+            td Ley 2143 de 2021, por la cual se dota a las asociaciones mutualistas de identidad, autonomía y vinculación a la economía del país como empresas solidarias y se establecen otras disposiciones.
+              br 
+              br
+              | Ley 2069 de 2021, por medio del cual se impulsa el emprendimiento en Colombia, artículo 7. 
+          tr
+            th 
+              h4.mb-0 Fondo de empleados
+            td Decreto 1481 de 1989, por el cual se determinan la naturaleza, características, constitución, regímenes internos de responsabilidad y sanciones, y se dictan medidas para el fomento de los fondos de empleados.
+              br 
+              br
+              | Ley 1391 de 2010, por medio de la cual se modifica el Decreto  
+              br 
+              br
+              | Ley 1481 de 1989 y se dictan otras disposiciones. 
+          tr
+            th 
+              h4.mb-0 Precooperativas
+            td Decreto 1333 de 1989, por el cual se establece el régimen de constitución, reconocimiento y funcionamiento de las precooperativas.
+          tr
+            th 
+              h4.mb-0 Trabajo asociado
+            td Decreto 4588 de 2006, por el cual se reglamenta la organización y funcionamiento de las Cooperativas y Precooperativas de Trabajo Asociado.  
 
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down")
+      .col-md-10.bg-acento-botones2.tarjeta.p-4
+        p.mb-0 La legislación vigente para estas formas asociativas las pueden consultar en el material complementario; así mismo, es de gran relevancia para un emprendimiento social, tal y como se conocen este tipo de iniciativas, basadas en los principios de la solidaridad y el desarrollo integral de sus asociados, que los emprendedores elaboren su modelo de negocio para que posteriormente identifiquen la forma jurídica asociativa más favorable y apropiada a los intereses y objetivos estratégicos de los asociados.
 
+    p.mb-5(data-aos="fade") En la siguiente tabla comparativa, encontrará las características más relevantes establecidas por la legislación vigente para las organizaciones de economía solidaria: 
 
-
-
+    .titulo-sexto.color-acento-contenido.mb-4
+        p.mb-0 <b>Tabla 3.</b> Características jurídicas
+    .tabla-b.tema1-2-tabla2.color-acento-botones.mb-5(data-aos="fade-down")
+      table
+        thead.tabla-b__header
+          tr
+            th(rowspan="2").col-1
+              h4.mb-0.text-white Forma jurídica
+            th(colspan="3") 
+              h4.mb-0.text-white Características
+          tr.bg-gris
+            th.bg-gris Número de asociados
+            th.bg-gris Documento de constitución
+            th.bg-gris Naturaleza   
+        tbody
+          tr
+            th.col-1
+              h4.mb-0 Cooperativas
+            td El número mínimo de fundadores será de tres, salvo las excepciones consagradas en normas especiales. (Ley 2069 de 2021). 
+            td Para su inscripción en el registro público sólo se requerirá la solicitud firmada por el representante legal, acompañada del acta de constitución y copia de los estatutos. (Ley 2069 de 2021).
+            td Toda actividad económica, social o cultural puede organizarse con base en el acuerdo cooperativo. (Ley 79 de 1988)
+          tr
+            th.col-1
+              h4.mb-0 Asociaciones mutuales
+            td Las Asociaciones Mutuales se constituirán con un mínimo de diez (10) personas naturales. (Ley 2069 de 2021).
+            td Documento privado que se hará constar en acta firmada por todos los asociados fundadores, con anotación de sus nombres, documentos de identificación y domicilios. (Ley 2069 de 2021).
+            td Son personas jurídicas de derecho privado, sin ánimo de lucro, constituidas libre y democráticamente por personas naturales, inspiradas en la solidaridad, con el objeto de brindarse ayuda recíproca frente a riesgos eventuales y satisfacer sus necesidades mediante la prestación de servicios de seguridad social, seguridad alimentaria y producción, transformación y comercialización de la Economía Campesina Familiar y Comunitaria -ECFC. (Ley 2069 de 2021).
+          tr
+            th.col-1
+              h4.mb-0 Fondos de empleados
+            td Los Fondos de Empleados podrán ser constituidos por trabajadores dependientes, trabajadores asociados o por servidores públicos. (Ley 1391 de 2010).
+              br
+              br
+              | Se constituirán con un mínimo de diez (10) trabajadores. (Decreto 1481 de 1989).
+            td En acto privado que se hará constar en acta firmada por todos los asociados fundadores, con anotación de sus nombres, documentos de identificación y domicilio. (Decreto 1481 de 1989).
+            td Son empresas asociativas, de derecho privado, sin ánimo de lucro, constituidas por trabajadores dependientes y subordinados. (Decreto 1481 de 1989).
+          tr
+            th.col-1
+              h4.mb-0 Precooperativas
+            td La constitución de toda precooperativa se hará por un mínimo de cinco (5) asociados fundadores. (Decreto 1333 de 1989).
+            td En reunión en la cual se aprobarán los estatutos que hayan de regirla, se evaluarán los aportes en trabajo o en especie si fuere el caso, y se levantará y firmará por los constituyentes el acta de fundación especificando sus nombres, documentos de identificación y el monto del aporte inicial de cada uno, sea en dinero, en trabajo o en especie. (Decreto 1333 de 1989). 
+            td Su característica de transitoriedad como empresas asociativas sin ánimo de lucro de duración limitada. (Decreto 1333 de 1989).   
+          tr
+            th.col-1
+              h4.mb-0 Trabajo asociado
+            td Trabajo asociado	Son organizaciones sin ánimo de lucro pertenecientes al sector solidario de la economía, que asocian personas naturales que simultáneamente son gestoras.
+              br
+              br
+              | Las Cooperativas de Trabajo Asociado se constituirán con un mínimo de diez (10) asociados. (Decreto 4588 de 2006). 
+            td El reconocimiento de personería jurídica se hará con base en los siguientes requisitos:
+              br
+              br
+              | 1. Solicitud escrita de reconocimiento de personería jurídica.
+              br
+              | 2. Acta de la asamblea de constitución.
+              br
+              | 3. Texto completo de los estatutos. (Decreto 4588 de 2006).
+            td Desarrollo de actividades económicas, profesionales o intelectuales, con el fin de producir en común bienes, ejecutar obras o prestar servicios para satisfacer las necesidades de sus asociados y de la comunidad en general. (Decreto 4588 de 2006).        
 
     .row.tema1-2-rectangulo.justify-content-center.align-items-center.mb-4(data-aos="fade-down")
       .col-md-9.py-5.py-md-2
@@ -435,6 +599,7 @@ export default {
   components: {},
   data: () => ({
     // variables de vue
+    mostrarIndicador: true,
   }),
   mounted() {
     this.$nextTick(() => {

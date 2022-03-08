@@ -82,10 +82,16 @@
   background-color: #F3F3F3
 .bg-acento-botones
   background-color: #F37F4C  
+.bg-acento-botones2  
+  background-color: #FFD1BC 
 .bg-primario
   background-color: #32D9CB
 .bg-secundario
   background-color: #00A3BE  
+.bg-naranja
+  background: rgb(255,131,77)
+  background: linear-gradient(180deg, rgba(255,131,77,1) 0%, rgba(254,87,13,1) 100%)
+
 
 .bordes-curvos
   border-radius: 50px  
@@ -117,6 +123,68 @@
   padding-left: 30px
   @media (max-width: 992px)   
     padding-left: 0px
+
+.tema1-2-tarjetas-hover
+  cursor: pointer
+.tema1-2-tarjetas-hover .decoracion
+  border: 2px solid #B0C0D2
+  border-radius: 50%
+  width: 75px
+  height: 75px
+  display: flex
+  margin: 0 auto
+  align-content: center
+  justify-content: center
+  align-items: center
+  transition: ease
+  transition-duration: .4s
+  img
+    width: 50px
+    max-height: 50px
+    padding: 2px
+.tema1-2-tarjetas-hover .linea-1   
+  height: 8px
+  background-color: #B0C0D2
+  width: 70%
+  margin: 0 auto
+  transition: ease
+  transition-duration: .4s
+.tema1-2-tarjetas-hover .linea-2  
+  height: 36px
+  background-color: #B0C0D2
+  margin-top: 10px
+  margin-bottom: 15px
+  transition: ease
+  transition-duration: .4s
+.tema1-2-tarjetas-hover p
+  opacity: 0  
+  transition: ease
+  transition-duration: .4s
+.tema1-2-tarjetas-hover .hovers:hover 
+  transition: ease
+  transition-duration: .4s
+  .decoracion
+    border: 2px solid #00A3BE
+  .linea-1
+    background-color: #00A3BE
+  .linea-2    
+    background-color: #00A3BE
+  p
+    opacity: 1
+    transition: ease
+    transition-duration: .3s
+    
+
+.tema1-2-tabla1 .col-1
+  width: 22%
+.tema1-2-tabla2 .col-1
+  width: 15%  
+.tema1-2-tabla2 .bg-gris
+  background-color: #E5E1E1  
+.tabla-b th
+  border-right: 1px solid #AFAFAF
+.tabla-b td
+  border-left: 1px solid #AFAFAF
 
 .tema1-3-preguntas .bg-gris
   height: 111px
