@@ -11,30 +11,30 @@
     p.mb-5(data-aos="fade") <b style="font-size: 18px;">Los modelos de negocio</b> se diseñan y aplican en entornos específicos. Un conocimiento profundo del entorno de la empresa ayudará a concebir modelos de negocio más fuertes y competitivos (Osterwalder & Pigneur, 2010) de tal manera que una de las principales tareas por realizar es la observación, interpretación y análisis del comportamiento del sector y actividades económicas en donde se insertará la futura empresa; es decir, esos entornos específicos que menciona el autor. Veamos lo que representa este modelo:
 
     .row.mb-5
-      h4.text-center.mb-4 Modelo de negocio para organizaciones de economía solidaria
       SlyderA.tema-1
         .row.justify-content-center
-          .col-md-10.tarjeta.bg-1.pt-5.h-425
+          .col-md-10.tarjeta.bg-1.pt-5.h-400
             .row.justify-content-center.align-items-end
-              .col-md-6.mb-4.mb-md-0
+              .col-md-4.mb-4.mb-md-0
                 img(src='@/assets/curso/tema1-slide1.png', alt='Imagen decorativa')
-              .col-md-4
+              .col-md-6
+                h4 Modelo de negocio para organizaciones de economía solidaria
                 p El entorno en donde se desarrollará la empresa no solo implica el entorno económico sino también social, político, cultural, medioambiental y tecnológico, que el emprendedor debe vigilar; esta vigilancia mezcla el comportamiento de la oferta y demanda de los productos y servicios, la infraestructura tecnológica utilizadas por las empresas, los cambios o transformaciones sociales como gustos, deseos y necesidades que el ser humano cada vez las concibe como ilimitadas porque “queremos más y más”. 
 
         .row.justify-content-center
-          .col-md-10.tarjeta.bg-1.pt-5.h-425
+          .col-md-10.tarjeta.bg-1.pt-5.h-400
             .row.justify-content-center.align-items-center
-              .col-md-4.mb-4.mb-md-0
+              .col-md-5.mb-4.mb-md-0
                 p En el entorno cultural esta vigilancia se enfoca en saber cuál es la actuación o conducta de las personas frente a determinadas propuestas de valor y en el entorno medioambiental, implica el uso de tecnologías amigables y de conservación del ecosistema en los procesos productivos que se podrían incorporar en la futura empresa.
-              .col-md-6
+              .col-md-5
                 img(src='@/assets/curso/tema1-slide2.png', alt='Imagen decorativa')
               
         .row.justify-content-center
-          .col-md-10.tarjeta.bg-1.pt-5.h-425
+          .col-md-10.tarjeta.bg-1.pt-5.h-400
             .row.justify-content-center.align-items-end
-              .col-md-6.mb-4.mb-md-0
+              .col-md-5.mb-4.mb-md-0
                 img(src='@/assets/curso/tema1-slide3.png', alt='Imagen decorativa')
-              .col-md-4
+              .col-md-5
                 p De acuerdo con Osterwalder & Pigneur (2010), la manera más acertada de describir un modelo de negocio es hacer la distribución desde los nueve módulos básicos que reflejen el método al que atiende una empresa para obtener sus ingresos. 
 
 
@@ -45,18 +45,19 @@
 
     p.mb-4(data-aos="fade") En este sentido, se hace claridad del objetivo y la finalidad de cada bloque que compone el Lienzo CANVAS. A continuación, se presenta la estructura completa del Lienzo: 
 
-    .row.justify-content-center.mb-5
-      .col-md-10(data-aos="fade-down")
-        .titulo-sexto.color-acento-contenido
-          p.mb-0 <b>Tabla 1.</b> Lienzo CANVAS
-        figure.mb-3
-          img(src='@/assets/curso/tema1-tabla.svg', alt='Lienzo CANVAS')  
-        p.mb-0 Nota. Adaptado de Osterwalder & Pigneur (2010)
+    .row.justify-content-center.mb-5(data-aos="fade-down")
+      .titulo-sexto.color-acento-contenido.mb-2
+        p.mb-0 <b>Tabla 1.</b> Lienzo CANVAS
+      figure.mb-2
+        img(src='@/assets/curso/tema1-tabla.svg', alt='Lienzo CANVAS')  
+      p.mb-0 Nota. Adaptado de Osterwalder & Pigneur (2010)
 
     .row.tema1-rectangulo.justify-content-center.align-items-center.mb-4(data-aos="fade-down")
-      .col-md-9.py-2
-        h4.text-white.px-md-3 Lienzo CANVAS de COOPMUJERES
-        p.mb-0.text-white.px-md-3 Como material complementario encontrarán el lienzo CANVAS o modelo de negocio de la Cooperativa de Mujeres emprendedoras de Cúcuta, COOPMUJERES. Un emprendimiento social apoyado por la Cámara de Comercio de Cúcuta y enfocado a fortalecer las mujeres emprendedoras de la ciudad; este modelo les ayudará como referencia para que a partir del caso propuesto, analicen y construyan el modelo de negocio, teniendo en cuenta los elementos claves para cada módulo y las preguntas orientadoras. 
+      .col-md-9.py-5.py-md-2
+        .row.justify-content-end
+         .col-md-11
+            h4.text-white.px-md-3 Lienzo CANVAS de COOPMUJERES
+            p.mb-0.text-white.px-md-3 Como material complementario encontrarán el lienzo CANVAS o modelo de negocio de la Cooperativa de Mujeres emprendedoras de Cúcuta, COOPMUJERES. Un emprendimiento social apoyado por la Cámara de Comercio de Cúcuta y enfocado a fortalecer las mujeres emprendedoras de la ciudad; este modelo les ayudará como referencia para que a partir del caso propuesto, analicen y construyan el modelo de negocio, teniendo en cuenta los elementos claves para cada módulo y las preguntas orientadoras. 
       .col-md-3.contenedor-imagenes
         img(src='@/assets/curso/tema1-icono.svg' alt='Imagen decorativa')
 
@@ -194,28 +195,28 @@
     p.mb-4(data-aos="fade") Ahora bien, es bueno conocer su clasificación: 
 
     TabsB.color-primario.mb-5
-      .py-4.py-md-5(titulo="Cooperativas y su división" :icono="require('@/assets/curso/nada.png')")
+      .py-4.py-md-5(titulo="Cooperativas y su división" :icono="require('@/assets/curso/tema1-2-tab-ico1.svg')")
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
             h4 Cooperativas
             p Es una empresa asociativa, sin ánimo de lucro, en la cual los asociados, según el caso, son simultáneamente los aportantes y los gestores de la empresa, creada con el objeto de producir o distribuir conjunta y eficientemente bienes o servicios para satisfacer las necesidades de sus asociados y de la comunidad en general. 
           .col-md-3
             img(src='@/assets/curso/tema1-2-tab1.png', alt='Fondo de empleados')
-      .py-4.py-md-5(titulo="Fondo de empleados" :icono="require('@/assets/curso/nada.png')")
+      .py-4.py-md-5(titulo="Fondo de empleados" :icono="require('@/assets/curso/tema1-2-tab-ico2.svg')")
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
             h4 Fondo de empleados
             p Los fondos de empleados son organizaciones pertenecientes al sector de la economía solidaria, de derecho privado, sin ánimo de lucro, constituidas por trabajadores dependientes, trabajadores asociados o por servidores públicos que ofrecen servicios. 
           .col-md-3
             img(src='@/assets/curso/tema1-2-tab2.png', alt='Fondo de empleados')
-      .py-4.py-md-5(titulo="Asociaciones mutuales" :icono="require('@/assets/curso/nada.png')")
+      .py-4.py-md-5(titulo="Asociaciones mutuales" :icono="require('@/assets/curso/tema1-2-tab-ico3.svg')")
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
             h4 Asociaciones mutuales
             p Son organizaciones privadas sin ánimo de lucro que están constituidas por personas naturales para fomentar la ayuda recíproca entre sus miembros, satisfaciendo sus necesidades mediante la prestación de servicios que contribuyan al mejoramiento de su calidad de vida.
           .col-md-3
             img(src='@/assets/curso/tema1-2-tab3.png', alt='Asociaciones mutuales')
-      .py-4.py-md-5(titulo="Entidades auxiliares de la economía solidaria" :icono="require('@/assets/curso/nada.png')")
+      .py-4.py-md-5(titulo="Entidades auxiliares de la economía solidaria" :icono="require('@/assets/curso/tema1-2-tab-ico4.svg')")
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
             h4 Entidades auxiliares de la economía solidaria
@@ -247,44 +248,71 @@
       h2 1.3. Modelo estatutario
 
     .row.align-items-center.mb-5
-      .col-md-6.mb-4.mb-md-0(data-aos="fade-left")
+      .col-md-6.mb-4.mb-md-0(data-aos="fade-right")
         img.px-4(src='@/assets/curso/tema1-3-img.png', alt='Imagen decorativa')
-      .col-md-6(data-aos="fade-right")
-        .row.align-items-center.mb-3
+      .col-md-6(data-aos="fade-left")
+        .row.align-items-center.align-items-center.mb-3
           .col-2
-            img(src='@/assets/curso/tema1-3-check.png', alt='Check' style="width: 45px;")
+            h3.mb-0 1.
           .col-10.bg-gris.bordes-curvos.py-4.px-4
             h5.mb-0 Las relaciones dentro de la organización.
-        .row.align-items-center.mb-3
+        .row.align-items-center.align-items-center.mb-3
           .col-2
-            img(src='@/assets/curso/tema1-3-check.png', alt='Check' style="width: 45px;")
+            h3.mb-0 2.
           .col-10.bg-gris.bordes-curvos.py-4.px-4
             h5.mb-0 Sus relaciones con el entorno.
-        .row.align-items-center.mb-3
+        .row.align-items-center.align-items-center.mb-3
           .col-2
-            img(src='@/assets/curso/tema1-3-check.png', alt='Check' style="width: 45px;")
+            h3.mb-0 3.
           .col-10.bg-gris.bordes-curvos.py-4.px-4
             h5.mb-0 Sus derechos y obligaciones.
-        .row.align-items-center.mb-3
+        .row.align-items-center.align-items-center.mb-3
           .col-2
-            img(src='@/assets/curso/tema1-3-check.png', alt='Check' style="width: 45px;")
+            h3.mb-0 4.
           .col-10.bg-gris.bordes-curvos.py-4.px-4
             h5.mb-0 Los órganos de administración y control, sus atribuciones y facultades.
-        .row.align-items-center.mb-3
+        .row.align-items-center.align-items-center.mb-3
           .col-2
-            img(src='@/assets/curso/tema1-3-check.png', alt='Check' style="width: 45px;")
+            h3.mb-0 5.
           .col-10.bg-gris.bordes-curvos.py-4.px-4
             h5.mb-0 El régimen económico de la organización.      
     
     p.mb-5(data-aos="fade") Para una correcta elaboración de los estatutos, es importante que se haga una creación colectiva de los mismos, donde cada asociado, responda las siguientes preguntas orientadoras que les ayudarán a su elaboración:
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.tema1-3-preguntas.mb-5
       h4.mb-5 Preguntas orientadoras
       .col-md-5
-        .mb-3.bg-acento-botones.bordes-curvos.py-4.px-4
-          h5.mb-0.text-white ¿Cuál será el nombre o razón social?
-        .mb-3.bg-primario.bordes-curvos.py-4.px-4
-          h5.mb-0.text-white ¿Dónde funcionará?
+        .mb-3.bg-gris.bordes-curvos.bordes-azul.py-4.px-4
+          h5.mb-0 ¿Cuál será el nombre o razón social?
+        .mb-3.bg-gris.bordes-curvos.bordes-azul.py-4.px-4
+          h5.mb-0 ¿Dónde funcionará?
+        .mb-3.bg-gris.bordes-curvos.bordes-azul.py-4.px-4
+          h5.mb-0 ¿Cuáles serán las condiciones para su administración, retiro y exclusión y sanciones de asociados?
+        .mb-3.bg-gris.bordes-curvos.bordes-azul.py-4.px-4
+          h5.mb-0 ¿Cuándo se convocará a reuniones o asambleas?
+        .mb-3.bg-gris.bordes-curvos.bordes-azul.py-4.px-4
+          h5.mb-0 ¿Cuáles son los aportes sociales para cada asociado?
+        .mb-3.bg-gris.bordes-curvos.bordes-azul.py-4.px-4
+          h5.mb-0 ¿Cuáles son las causales para la disolución y liquidación?
+      .col-md-5
+        .mb-3.bg-gris.bordes-curvos.bordes-azul.py-4.px-4
+          h5.mb-0 ¿Cuál es el fin del acuerdo cooperativo, basado en fines de interés social y sin ánimo de lucro?
+        .mb-3.bg-gris.bordes-curvos.bordes-azul.py-4.px-4
+          h5.mb-0 ¿Cuáles deberes y derechos tendrán los asociados?
+        .mb-3.bg-gris.bordes-curvos.bordes-azul.py-4.px-4
+          h5.mb-0 ¿Cuáles procedimientos se implementarán para la solución de conflictos?
+        .mb-3.bg-gris.bordes-curvos.bordes-azul.py-4.px-4
+          h5.mb-0 ¿Quién será el representante legal, sus funciones y responsabilidades?
+        .mb-3.bg-gris.bordes-curvos.bordes-azul.py-4.px-4
+          h5.mb-0 ¿Cuál es el procedimiento para la distribución de los excedentes económicos?
+        .mb-3.bg-gris.bordes-curvos.bordes-azul.py-4.px-4
+          h5.mb-0 ¿Cuál es el conducto regular para hacer reformas?
+
+    .row.justify-content-center(data-aos="fade-down")
+      .col-md-10.tarjeta.bg-1
+        .row.justify-content-center.align-items-center.py-3  
+          .col-10
+            h5.mb-0 <b style="font-size: 18px;">La Ley 79 de 1988</b>, en el artículo 19, contiene los elementos para tener en cuenta en la elaboración de los estatutos de la futura cooperativa; las preguntas orientadoras ayudarán a los asociados a estructurar los estatutos cumpliendo los lineamientos de la normativa. 
 
 
 

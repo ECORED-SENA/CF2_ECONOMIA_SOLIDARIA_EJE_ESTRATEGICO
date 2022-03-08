@@ -14,32 +14,36 @@
     p.mb-4(data-aos="fade") El lienzo CANVAS o modelo de negocio, tal como lo describe Osterwalder & Pigneur (2010), se distribuye en nueve bloques, cada uno de estos tiene un enfoque claro en las áreas funcionales para la gestión del negocio, facilitando la comprensión y aplicación de lo que se pretende lograr con el emprendimiento en el mediano plazo. Veámos
   
     .row.justify-content-center.mb-4(data-aos="fade-down")
-      .col-md-10.bg-gris.py-4.tarjeta.px-4
-        .row
-          .col-md-2.px-md-3
-            h4.text-center.mb-3.mt-4 Segmentos de mercado
-            img(src='@/assets/curso/intro-ico1.svg', alt='Segmentos de mercado')
-          .col-md-2.px-md-3
-            img.mb-3(src='@/assets/curso/intro-ico2.svg', alt='Propuesta de valor')  
-            h4.text-center.mb-5 Propuesta de valor
-            img.mb-3(src='@/assets/curso/intro-ico3.svg', alt='Actividades claves')  
-            h4.text-center.mb-5 Actividades claves
-          .col-md-2.px-md-3
-            h4.text-center.mb-3.mt-4 Canales
-            img.mb-5(src='@/assets/curso/intro-ico4.svg', alt='Canales')
+      .col-md-10.py-4.px-4.iconos-intro
+        .row.justify-content-around
+          .col-md-2.col-6.mb-4
+            h4.text-center.mb-3 Segmentos de mercado
+            img(src='@/assets/curso/intro-ico1.svg', alt='Segmentos de mercado', style="width: 130px; margin: 0 auto")
+          .col-md-2.col-6.mb-4
+            h4.text-center.mb-3 Propuesta de valor
+            img(src='@/assets/curso/intro-ico2.svg', alt='Propuesta de valor', style="width: 130px; margin: 0 auto")  
+          .col-md-2.col-6.mb-4
+            h4.text-center.mb-3 Canales
+            img(src='@/assets/curso/intro-ico3.svg', alt='Canales', style="width: 130px; margin: 0 auto")
+          .col-md-2.col-6.mb-4
+            h4.text-center.mb-3 Relaciones con los clientes
+            img(src='@/assets/curso/intro-ico4.svg', alt='Relaciones con los clientes', style="width: 130px; margin: 0 auto")
+          .col-md-2.col-6.mb-4
+            h4.text-center.mb-3 Fuentes de ingresos
+            img(src='@/assets/curso/intro-ico5.svg', alt='Fuentes de ingresos', style="width: 130px; margin: 0 auto")      
+        .row.justify-content-around
+          .col-md-2.col-6.mb-4
+            h4.text-center.mb-3 Recursos claves
+            img(src='@/assets/curso/intro-ico6.svg', alt='Recursos claves', style="width: 130px; margin: 0 auto")
+          .col-md-2.col-6.mb-4
+            h4.text-center.mb-3 Actividades claves
+            img(src='@/assets/curso/intro-ico7.svg', alt='Actividades claves', style="width: 130px; margin: 0 auto")  
+          .col-md-2.col-6.mb-4
             h4.text-center.mb-3 Asociaciones clave
-            img(src='@/assets/curso/intro-ico5.svg', alt='Asociaciones clave')
-          .col-md-2.px-md-3
-            img.mb-3(src='@/assets/curso/intro-ico6.svg', alt='Relaciones con los clientes')  
-            h4.text-center.mb-5 Relaciones con los clientes
-            img.mb-3(src='@/assets/curso/intro-ico7.svg', alt='Estructura de costos')  
-            h4.text-center.mb-5 Estructura de costos
-          .col-md-2.px-md-3
-            h4.text-center.mb-3.mt-4 Fuentes de ingresos
-            img.mb-5(src='@/assets/curso/intro-ico8.svg', alt='Fuentes de ingresos')
-          .col-md-2.px-md-3
-            img.mb-3(src='@/assets/curso/intro-ico9.svg', alt='Recursos claves')  
-            h4.text-center Recursos claves
+            img(src='@/assets/curso/intro-ico8.svg', alt='Asociaciones clave', style="width: 130px; margin: 0 auto")
+          .col-md-2.col-6.mb-4
+            h4.text-center.mb-3 Estructura de costos
+            img(src='@/assets/curso/intro-ico9.svg', alt='Estructura de costos', style="width: 130px; margin: 0 auto")  
 
     p.mb-4(data-aos="fade") Sabiendo ya esto, en el siguiente video se explica brevemente la importancia de estructurar un modelo de negocio:
 
@@ -50,8 +54,10 @@
     
     .row.justify-content-center(data-aos="fade-down")
       .col-md-10.tarjeta.color-secundario
-        .row.justify-content-center
-          .col-md-10.py-3.text-center
+        .row.justify-content-center.align-items-center.py-3
+          .col-2
+            img(src='@/assets/curso/intro-icono.svg', alt='Estructura de costos', style="width: 70px; margin: 0 auto")  
+          .col-9
             p.mb-0 El modelo de negocio, entonces, se constituye en una herramienta gerencial flexible, dinámica y en constante evolución, permitiendo que la empresa escale gradualmente su participación en el mercado. 
     
 </template>
