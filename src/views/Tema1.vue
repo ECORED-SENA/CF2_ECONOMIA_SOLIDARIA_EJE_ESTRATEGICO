@@ -93,8 +93,8 @@
         .col-md-8.mb-4.mb-md-0
           p En la segmentación de clientes, no necesariamente debe seleccionar un solo segmento; de tal forma, que se pueden identificar uno, dos o más segmentos de clientes, esto obedece a la propuesta de valor y los productos/servicios que se pretendan ofertar. 
           p Atendiendo a Osterwalder & Pigneur (2010) se puede hacer dos preguntas orientadoras para la descripción del segmento clientes:
-          h5.text-center.mb-0 ¿Para quién creamos valor?
-          h5.text-center.mb-0 ¿Cuáles son nuestros clientes más importantes?
+          p.text-center.mb-0 ¿Para quién creamos valor?
+          p.text-center.mb-0 ¿Cuáles son nuestros clientes más importantes?
         .col-md-3
           figure
             img(src='@/assets/curso/tema1-1-acord1.png', alt='Segmentación de Clientes')
@@ -115,71 +115,71 @@
               p.mb-0 - Reducción de riesgos
               p.mb-0 - Comodidad / utilidad
           p.mb-0 Las siguientes preguntas orientadoras ayudarán a formular la propuesta de valor: 
-          h5.mb-0 ¿Qué valor proporcionamos a nuestros clientes?
-          h5.mb-0 ¿Qué problema de nuestros clientes ayudamos a solucionar?
-          h5.mb-0 ¿Qué necesidades de los clientes satisfacemos?
-          h5.mb-0 ¿Qué paquetes de productos o servicios ofrecemos a cada segmento de mercado?
+          p.mb-0 ¿Qué valor proporcionamos a nuestros clientes?
+          p.mb-0 ¿Qué problema de nuestros clientes ayudamos a solucionar?
+          p.mb-0 ¿Qué necesidades de los clientes satisfacemos?
+          p.mb-0 ¿Qué paquetes de productos o servicios ofrecemos a cada segmento de mercado?
         .col-md-3
           figure
             img(src='@/assets/curso/tema1-1-acord2.png', alt='Propuesta de valor')
       .row.justify-content-center(titulo="Canales")
         .col-md-7.mb-4.mb-md-0
           p Las preguntas orientadoras para la formulación del bloque: 
-          h5.mb-0 ¿Qué canales prefieren nuestros segmentos de mercado?
-          h5.mb-0 ¿Cómo establecemos actualmente el contacto con los clientes?
-          h5.mb-0 ¿Cuáles tienen mejores resultados? ¿Cuáles son más rentables?
-          h5.mb-0 ¿Cómo se integran en las actividades diarias de los clientes?
+          p.mb-0 ¿Qué canales prefieren nuestros segmentos de mercado?
+          p.mb-0 ¿Cómo establecemos actualmente el contacto con los clientes?
+          p.mb-0 ¿Cuáles tienen mejores resultados? ¿Cuáles son más rentables?
+          p.mb-0 ¿Cómo se integran en las actividades diarias de los clientes?
         .col-md-4
           figure
             img(src='@/assets/curso/tema1-1-acord3.png', alt='Canales')
       .row.justify-content-center(titulo="Relaciones con los clientes")
         .col-md-8.mb-4.mb-md-0
           p Hay preguntas orientadoras que ayudarán a marcar la guía para las estrategias que se definirán en el bloque, así: 
-          h5.mb-0 ¿Qué tipo de relación esperan los diferentes segmentos de mercado? 
-          h5.mb-0 ¿Cuál es su costo?
-          h5.mb-0 ¿Cómo se integran en nuestro modelo de negocio?
+          p.mb-0 ¿Qué tipo de relación esperan los diferentes segmentos de mercado? 
+          p.mb-0 ¿Cuál es su costo?
+          p.mb-0 ¿Cómo se integran en nuestro modelo de negocio?
         .col-md-3
           figure
             img(src='@/assets/curso/tema1-1-acord4.png', alt='Relaciones con los clientes')
       .row.justify-content-center(titulo="Fuente de ingresos")
         .col-md-7.mb-4.mb-md-0
           p Las siguientes preguntas orientadoras, ayudarán en la descripción de este componente:
-          h5.mb-0 ¿Por qué valor están dispuestos a pagar nuestros clientes?
-          h5.mb-0 ¿Cómo les gustaría pagar?
+          p.mb-0 ¿Por qué valor están dispuestos a pagar nuestros clientes?
+          p.mb-0 ¿Cómo les gustaría pagar?
         .col-md-4
           figure
             img(src='@/assets/curso/tema1-1-acord5.png', alt='Fuente de ingresos')      
       .row.justify-content-center(titulo="Recursos claves")
         .col-md-7.mb-4.mb-md-0
           p Estas preguntas orientadoras, permitirán al emprendedor reconocer cuáles son sus recursos claves, teniendo en cuenta la propuesta de valor definida, el segmento y relación con sus clientes y sus canales para la comercialización del producto o servicio.
-          h5.mb-0 ¿Qué recursos clave requiere la propuesta de valor, los canales de distribución, relaciones con clientes y fuentes de ingresos?
+          p.mb-0 ¿Qué recursos clave requiere la propuesta de valor, los canales de distribución, relaciones con clientes y fuentes de ingresos?
         .col-md-4
           figure
             img(src='@/assets/curso/tema1-1-acord6.png', alt='Recursos claves') 
       .row.justify-content-center(titulo="Actividades claves")
         .col-md-7.mb-4.mb-md-0
           p Las preguntas orientadoras, marcarán la pauta para la descripción del bloque:
-          h5 ¿Qué actividades clave requieren nuestras propuestas de valor, canales de distribución, relaciones con clientes y fuentes de ingresos?
+          p ¿Qué actividades clave requieren nuestras propuestas de valor, canales de distribución, relaciones con clientes y fuentes de ingresos?
           p.mb-0 Para la identificación de las actividades claves es fundamental reconocer el proceso productivo requerido para el o los productos que se ofertarán o en caso, de ofrecer servicios, entonces las actividades necesarias para la prestación del servicio; otra orientación importante para las actividades claves es no perder de vista los recursos claves definidos en el componente anterior. 
         .col-md-4
           figure
             img(src='@/assets/curso/tema1-1-acord7.png', alt='Actividades claves')  
-      .row.justify-content-center(titulo="Asociaciones clavess")
+      .row.justify-content-center(titulo="Asociaciones claves")
         .col-md-7.mb-4.mb-md-0
           p Las siguientes preguntas orientadoras, ayudarán a dar respuesta a este componente:
-          h5.mb-0 ¿Quiénes son nuestros socios clave?
-          h5.mb-0 ¿Quiénes son nuestros proveedores clave?
-          h5.mb-0 ¿Qué recursos clave adquirimos a nuestros socios?
-          h5.mb-0 ¿Qué actividades clave realizan los socios?
+          p.mb-0 ¿Quiénes son nuestros socios clave?
+          p.mb-0 ¿Quiénes son nuestros proveedores clave?
+          p.mb-0 ¿Qué recursos clave adquirimos a nuestros socios?
+          p.mb-0 ¿Qué actividades clave realizan los socios?
         .col-md-4
           figure
             img(src='@/assets/curso/tema1-1-acord8.png', alt='Asociaciones claves') 
       .row.justify-content-center(titulo="Estructuras de costos")
         .col-md-7.mb-4.mb-md-0
           p Las siguientes preguntas orientadoras ayudarán a dar respuesta a este componente:
-          h5.mb-0 ¿Cuáles son los costos más importantes inherentes a nuestro modelo de negocio? 
-          h5.mb-0 ¿Cuáles son los recursos clave más caros? 
-          h5.mb-0 ¿Cuáles son las actividades clave más caras?
+          p.mb-0 ¿Cuáles son los costos más importantes inherentes a nuestro modelo de negocio? 
+          p.mb-0 ¿Cuáles son los recursos clave más caros? 
+          p.mb-0 ¿Cuáles son las actividades clave más caras?
         .col-md-4
           figure
             img(src='@/assets/curso/tema1-1-acord9.png', alt='Estructuras de costos') 
@@ -196,6 +196,9 @@
     p.mb-5(data-aos="fade") Las organizaciones de economía solidaria son consideradas empresas sin ánimo de lucro, tal y como lo define la Unidad Administrativa Especial de Organizaciones Solidarias (s.f.), presentada en la siguiente figura.
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
+      .col-md-12
+        .titulo-sexto.color-acento-contenido.mb-4
+          p.mb-0 <b>Figura 2.</b> Definición de las organizaciones de economía solidaria
       .col-md-10
         figure
           img(src='@/assets/curso/tema1-2-fig.svg', alt='Formas jurídicas')
@@ -235,6 +238,9 @@
 
     p.mb-5(data-aos="fade") Y por último, saber que las cooperativas se dividen en razón al desarrollo de sus actividades, tal como se evidencia en la siguiente figura:
 
+    .titulo-sexto.color-acento-contenido.mb-4
+      p.mb-0 <b>Figura 3.</b> División de las cooperativas
+          
     .row.tema1-2-tarjetas-hover.justify-content-around.mb-4
       .col.mb-3
         .hovers
@@ -294,32 +300,32 @@
             th 
               h4.mb-0.text-white Régimen normativo
         tbody
-          tr
+          tr.bg-gris3
             th.col-1
               h4.mb-0 Emprendimiento
             td Ley 2069 de 2021, por medio del cual se impulsa el emprendimiento en Colombia.
-          tr
+          tr.bg-blanco
             th 
               h4.mb-0 Economía solidaria
             td Decreto 1340 de 2020, por el cual se crea y regula la Comisión Intersectorial del Sector de la Economía Solidaria.
               br 
               br
               | Ley 454 de 1998, por la cual se determina el marco conceptual que regula la economía solidaria, se transforma el Departamento Administrativo Nacional de Cooperativas en el Departamento Nacional de la Economía Solidaria, se crea la Superintendencia de la Economía Solidaria, se crea el Fondo de Garantías para las Cooperativas Financieras y de Ahorro y Crédito, se dictan normas sobre la actividad financiera de las entidades de naturaleza cooperativa y se expiden otras disposiciones.  
-          tr
+          tr.bg-gris3
             th 
               h4.mb-0 Cooperativas
             td Ley 2069 de 2021, por medio del cual se impulsa el emprendimiento en Colombia, artículo 22.
               br 
               br
               | Ley 79 de 1988, por la cual se actualiza la Legislación Cooperativa.
-          tr
+          tr.bg-blanco
             th 
               h4.mb-0 Asociaciones mutuales
             td Ley 2143 de 2021, por la cual se dota a las asociaciones mutualistas de identidad, autonomía y vinculación a la economía del país como empresas solidarias y se establecen otras disposiciones.
               br 
               br
               | Ley 2069 de 2021, por medio del cual se impulsa el emprendimiento en Colombia, artículo 7. 
-          tr
+          tr.bg-gris3
             th 
               h4.mb-0 Fondo de empleados
             td Decreto 1481 de 1989, por el cual se determinan la naturaleza, características, constitución, regímenes internos de responsabilidad y sanciones, y se dictan medidas para el fomento de los fondos de empleados.
@@ -329,11 +335,11 @@
               br 
               br
               | Ley 1481 de 1989 y se dictan otras disposiciones. 
-          tr
+          tr.bg-blanco
             th 
               h4.mb-0 Precooperativas
             td Decreto 1333 de 1989, por el cual se establece el régimen de constitución, reconocimiento y funcionamiento de las precooperativas.
-          tr
+          tr.bg-gris3
             th 
               h4.mb-0 Trabajo asociado
             td Decreto 4588 de 2006, por el cual se reglamenta la organización y funcionamiento de las Cooperativas y Precooperativas de Trabajo Asociado.  
@@ -411,9 +417,9 @@
       .col-md-3.contenedor-imagenes
         img(src='@/assets/curso/tema1-icono.svg' alt='Imagen decorativa' style="width: 230px")
 
-    h5.mb-4(data-aos="fade")  Por lo tanto, como se mencionaba, el equipo emprendedor después de modelar su idea de emprendimiento social, continúa con reconocer las características más relevantes de la forma jurídica para que de manera conjunta seleccionen la forma jurídica más apropiada y pertinente para los objetivos estratégicos y la naturaleza y el sentir de los asociados. 
+    p.mb-4(data-aos="fade")  Por lo tanto, como se mencionaba, el equipo emprendedor después de modelar su idea de emprendimiento social, continúa con reconocer las características más relevantes de la forma jurídica para que de manera conjunta seleccionen la forma jurídica más apropiada y pertinente para los objetivos estratégicos y la naturaleza y el sentir de los asociados. 
 
-    h5(data-aos="fade")  En consecuencia, una de las formas jurídicas más utilizadas para las organizaciones de economía solidaria son las cooperativas en cualquiera de sus clases; ya que estas a partir de su naturaleza o su razón de ser, ejerce toda actividad económica, social o cultural, es decir, que ofrece un abanico de oportunidades para modelos de negocios para el emprendimiento social. 
+    p(data-aos="fade")  En consecuencia, una de las formas jurídicas más utilizadas para las organizaciones de economía solidaria son las cooperativas en cualquiera de sus clases; ya que estas a partir de su naturaleza o su razón de ser, ejerce toda actividad económica, social o cultural, es decir, que ofrece un abanico de oportunidades para modelos de negocios para el emprendimiento social. 
 
     Separador
 
@@ -421,6 +427,8 @@
     #t_1_3
     .titulo-segundo.color-primario
       h2 1.3. Modelo estatutario
+
+    p.mb-5(data-aos="fade")  La Unidad Administrativa Especial de Organizaciones Solidarias (s.f.), define los estatutos como el conjunto de normas que los asociados acuerdan y se comprometen sobre:   
 
     .row.align-items-center.mb-5
       .col-md-6.mb-4.mb-md-0(data-aos="fade-right")
@@ -455,7 +463,9 @@
     p.mb-5(data-aos="fade") Para una correcta elaboración de los estatutos, es importante que se haga una creación colectiva de los mismos, donde cada asociado, responda las siguientes preguntas orientadoras que les ayudarán a su elaboración:
 
     .row.justify-content-center.tema1-3-preguntas.mb-5
-      h4.mb-5 Preguntas orientadoras
+      .col-md-12  
+        .titulo-sexto.color-acento-contenido.mb-4
+          p.mb-0 <b>Figura 4.</b> Preguntas orientadoras
       .col-md-5
         .mb-3.bg-gris.bordes-curvos.bordes-azul.py-4.px-4
           h5.mb-0 ¿Cuál será el nombre o razón social?
@@ -487,9 +497,9 @@
       .col-md-10.tarjeta.bg-1
         .row.justify-content-center.align-items-center.py-3  
           .col-10
-            h5.mb-0 <b style="font-size: 18px;">La Ley 79 de 1988</b>, en el artículo 19, contiene los elementos para tener en cuenta en la elaboración de los estatutos de la futura cooperativa; las preguntas orientadoras ayudarán a los asociados a estructurar los estatutos cumpliendo los lineamientos de la normativa. 
+            p.mb-0 <b style="font-size: 18px;">La Ley 79 de 1988</b>, en el artículo 19, contiene los elementos para tener en cuenta en la elaboración de los estatutos de la futura cooperativa; las preguntas orientadoras ayudarán a los asociados a estructurar los estatutos cumpliendo los lineamientos de la normativa. 
 
-    h5.mb-5(data-aos="fade") Es importante que, la futura cooperativa cuente con el acompañamiento profesional jurídico, con el fin de que se cumplan los parámetros de la legislación y que no existan novedades u observaciones para su constitución que se realizan ante las Cámaras de Comercio del lugar de domicilio de la cooperativa. 
+    p.mb-5(data-aos="fade") Es importante que, la futura cooperativa cuente con el acompañamiento profesional jurídico, con el fin de que se cumplan los parámetros de la legislación y que no existan novedades u observaciones para su constitución que se realizan ante las Cámaras de Comercio del lugar de domicilio de la cooperativa. 
 
     .row.tema1-3-rectangulo.justify-content-center(data-aos="fade-down")
       .col-md-9.py-5.py-md-2
@@ -566,7 +576,7 @@
     .row.justify-content-center.mb-1
       .col-md-11.col-xxl-10
         .row.justify-content-center.mb-4.tema1-4-fondo2
-          .col-md-6.tarjeta.py-5.py-md-0.px-md-3.px-lg-4.px-3
+          .col-lg-6.col-10.col-md-10.tarjeta.py-5.py-md-0.px-md-3.px-lg-4.px-3
             ol.lista-ol.mb-0.mb-md-3
               li.mb-0
                 span.text-bold 1. 

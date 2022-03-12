@@ -14,8 +14,11 @@
     p.mb-4(data-aos="fade") El lienzo CANVAS o modelo de negocio, tal como lo describe Osterwalder & Pigneur (2010), se distribuye en nueve bloques, cada uno de estos tiene un enfoque claro en las áreas funcionales para la gestión del negocio, facilitando la comprensión y aplicación de lo que se pretende lograr con el emprendimiento en el mediano plazo. Veámos
   
     .row.justify-content-center.mb-4(data-aos="fade-down")
+      .col-md-12
+        .titulo-sexto.color-acento-contenido.mb-3
+          p.mb-0 <b>Figura 1.</b> Bloques del lienzo Canvas
       .col-md-10.py-4.px-4.iconos-intro
-        .row.justify-content-around
+        .row.justify-content-between
           .col-md-2.col-6.mb-4
             h4.text-center.mb-3 Segmentos de mercado
             img(src='@/assets/curso/intro-ico1.svg', alt='Segmentos de mercado', style="width: 130px; margin: 0 auto")
@@ -32,6 +35,7 @@
             h4.text-center.mb-3 Fuentes de ingresos
             img(src='@/assets/curso/intro-ico5.svg', alt='Fuentes de ingresos', style="width: 130px; margin: 0 auto")      
         .row.justify-content-around
+          .col-md-1
           .col-md-2.col-6.mb-4
             h4.text-center.mb-3 Recursos claves
             img(src='@/assets/curso/intro-ico6.svg', alt='Recursos claves', style="width: 130px; margin: 0 auto")
@@ -44,7 +48,8 @@
           .col-md-2.col-6.mb-4
             h4.text-center.mb-3 Estructura de costos
             img(src='@/assets/curso/intro-ico9.svg', alt='Estructura de costos', style="width: 130px; margin: 0 auto")  
-
+          .col-md-1
+          
     p.mb-4(data-aos="fade") Sabiendo ya esto, en el siguiente video se explica brevemente la importancia de estructurar un modelo de negocio:
 
     .row.justify-content-center.mb-4(data-aos="fade-down")
