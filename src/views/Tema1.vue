@@ -15,26 +15,26 @@
         .row.justify-content-center
           .col-md-10.tarjeta.bg-1.pt-5.h-400
             .row.justify-content-center.align-items-end
-              .col-md-4.mb-4.mb-md-0
+              .col-md-4.col-6.mb-4.mb-md-0
                 img(src='@/assets/curso/tema1-slide1.png', alt='Imagen decorativa')
-              .col-md-6
+              .col-md-6.p-5.p-md-0
                 h4 Modelo de negocio para organizaciones de economía solidaria
                 p El entorno en donde se desarrollará la empresa no solo implica el entorno económico sino también social, político, cultural, medioambiental y tecnológico, que el emprendedor debe vigilar; esta vigilancia mezcla el comportamiento de la oferta y demanda de los productos y servicios, la infraestructura tecnológica utilizadas por las empresas, los cambios o transformaciones sociales como gustos, deseos y necesidades que el ser humano cada vez las concibe como ilimitadas porque “queremos más y más”. 
 
         .row.justify-content-center
           .col-md-10.tarjeta.bg-1.pt-5.h-400
             .row.justify-content-center.align-items-center
-              .col-md-5.mb-4.mb-md-0
+              .col-md-5.mb-4.mb-md-0.p-5.p-md-0
                 p En el entorno cultural esta vigilancia se enfoca en saber cuál es la actuación o conducta de las personas frente a determinadas propuestas de valor y en el entorno medioambiental, implica el uso de tecnologías amigables y de conservación del ecosistema en los procesos productivos que se podrían incorporar en la futura empresa.
-              .col-md-5
+              .col-md-5.col-10.mb-4.mb-md-0
                 img(src='@/assets/curso/tema1-slide2.png', alt='Imagen decorativa')
               
         .row.justify-content-center
           .col-md-10.tarjeta.bg-1.pt-5.h-400
             .row.justify-content-center.align-items-end
-              .col-md-5.mb-4.mb-md-0
+              .col-md-5.col-11.mb-4.mb-md-0
                 img(src='@/assets/curso/tema1-slide3.png', alt='Imagen decorativa')
-              .col-md-5
+              .col-md-5.p-5.p-md-0
                 p De acuerdo con Osterwalder & Pigneur (2010), la manera más acertada de describir un modelo de negocio es hacer la distribución desde los nueve módulos básicos que reflejen el método al que atiende una empresa para obtener sus ingresos. 
 
 
@@ -66,7 +66,7 @@
          .col-md-11
             h4.text-white.px-md-3 Lienzo CANVAS de COOPMUJERES
             p.mb-0.text-white.px-md-3 Como material complementario encontrarán el lienzo CANVAS o modelo de negocio de la Cooperativa de Mujeres emprendedoras de Cúcuta, COOPMUJERES. Un emprendimiento social apoyado por la Cámara de Comercio de Cúcuta y enfocado a fortalecer las mujeres emprendedoras de la ciudad; este modelo les ayudará como referencia para que a partir del caso propuesto, analicen y construyan el modelo de negocio, teniendo en cuenta los elementos claves para cada módulo y las preguntas orientadoras. 
-      .col-md-3.contenedor-imagenes
+      .col-md-3.contenedor-imagenes.col-5.mb-3.mb-md-0
         img(src='@/assets/curso/tema1-icono.svg' alt='Imagen decorativa' style="width: 230px")
 
     Separador
@@ -95,7 +95,7 @@
           p Atendiendo a Osterwalder & Pigneur (2010) se puede hacer dos preguntas orientadoras para la descripción del segmento clientes:
           p.text-center.mb-0 ¿Para quién creamos valor?
           p.text-center.mb-0 ¿Cuáles son nuestros clientes más importantes?
-        .col-md-3
+        .col-md-3.col-6
           figure
             img(src='@/assets/curso/tema1-1-acord1.png', alt='Segmentación de Clientes')
       .row.justify-content-center(titulo="Propuesta de valor")
@@ -119,7 +119,7 @@
           p.mb-0 ¿Qué problema de nuestros clientes ayudamos a solucionar?
           p.mb-0 ¿Qué necesidades de los clientes satisfacemos?
           p.mb-0 ¿Qué paquetes de productos o servicios ofrecemos a cada segmento de mercado?
-        .col-md-3
+        .col-md-3.col-6
           figure
             img(src='@/assets/curso/tema1-1-acord2.png', alt='Propuesta de valor')
       .row.justify-content-center(titulo="Canales")
@@ -129,7 +129,7 @@
           p.mb-0 ¿Cómo establecemos actualmente el contacto con los clientes?
           p.mb-0 ¿Cuáles tienen mejores resultados? ¿Cuáles son más rentables?
           p.mb-0 ¿Cómo se integran en las actividades diarias de los clientes?
-        .col-md-4
+        .col-md-4.col-6
           figure
             img(src='@/assets/curso/tema1-1-acord3.png', alt='Canales')
       .row.justify-content-center(titulo="Relaciones con los clientes")
@@ -138,7 +138,7 @@
           p.mb-0 ¿Qué tipo de relación esperan los diferentes segmentos de mercado? 
           p.mb-0 ¿Cuál es su costo?
           p.mb-0 ¿Cómo se integran en nuestro modelo de negocio?
-        .col-md-3
+        .col-md-3.col-6
           figure
             img(src='@/assets/curso/tema1-1-acord4.png', alt='Relaciones con los clientes')
       .row.justify-content-center(titulo="Fuente de ingresos")
@@ -146,14 +146,14 @@
           p Las siguientes preguntas orientadoras, ayudarán en la descripción de este componente:
           p.mb-0 ¿Por qué valor están dispuestos a pagar nuestros clientes?
           p.mb-0 ¿Cómo les gustaría pagar?
-        .col-md-4
+        .col-md-4.col-6
           figure
             img(src='@/assets/curso/tema1-1-acord5.png', alt='Fuente de ingresos')      
       .row.justify-content-center(titulo="Recursos claves")
         .col-md-7.mb-4.mb-md-0
           p Estas preguntas orientadoras, permitirán al emprendedor reconocer cuáles son sus recursos claves, teniendo en cuenta la propuesta de valor definida, el segmento y relación con sus clientes y sus canales para la comercialización del producto o servicio.
           p.mb-0 ¿Qué recursos clave requiere la propuesta de valor, los canales de distribución, relaciones con clientes y fuentes de ingresos?
-        .col-md-4
+        .col-md-4.col-6
           figure
             img(src='@/assets/curso/tema1-1-acord6.png', alt='Recursos claves') 
       .row.justify-content-center(titulo="Actividades claves")
@@ -161,7 +161,7 @@
           p Las preguntas orientadoras, marcarán la pauta para la descripción del bloque:
           p ¿Qué actividades clave requieren nuestras propuestas de valor, canales de distribución, relaciones con clientes y fuentes de ingresos?
           p.mb-0 Para la identificación de las actividades claves es fundamental reconocer el proceso productivo requerido para el o los productos que se ofertarán o en caso, de ofrecer servicios, entonces las actividades necesarias para la prestación del servicio; otra orientación importante para las actividades claves es no perder de vista los recursos claves definidos en el componente anterior. 
-        .col-md-4
+        .col-md-4.col-6
           figure
             img(src='@/assets/curso/tema1-1-acord7.png', alt='Actividades claves')  
       .row.justify-content-center(titulo="Asociaciones claves")
@@ -171,7 +171,7 @@
           p.mb-0 ¿Quiénes son nuestros proveedores clave?
           p.mb-0 ¿Qué recursos clave adquirimos a nuestros socios?
           p.mb-0 ¿Qué actividades clave realizan los socios?
-        .col-md-4
+        .col-md-4.col-6
           figure
             img(src='@/assets/curso/tema1-1-acord8.png', alt='Asociaciones claves') 
       .row.justify-content-center(titulo="Estructuras de costos")
@@ -180,7 +180,7 @@
           p.mb-0 ¿Cuáles son los costos más importantes inherentes a nuestro modelo de negocio? 
           p.mb-0 ¿Cuáles son los recursos clave más caros? 
           p.mb-0 ¿Cuáles son las actividades clave más caras?
-        .col-md-4
+        .col-md-4.col-6
           figure
             img(src='@/assets/curso/tema1-1-acord9.png', alt='Estructuras de costos') 
 
@@ -211,28 +211,28 @@
           .col-md-6.mb-4.mb-md-0
             h4 Cooperativas
             p Es una empresa asociativa, sin ánimo de lucro, en la cual los asociados, según el caso, son simultáneamente los aportantes y los gestores de la empresa, creada con el objeto de producir o distribuir conjunta y eficientemente bienes o servicios para satisfacer las necesidades de sus asociados y de la comunidad en general. 
-          .col-md-3
+          .col-md-3.col-5
             img(src='@/assets/curso/tema1-2-tab1.png', alt='Fondo de empleados')
       .py-4.py-md-5(titulo="Fondo de empleados" :icono="require('@/assets/curso/tema1-2-tab-ico2.svg')")
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
             h4 Fondo de empleados
             p Los fondos de empleados son organizaciones pertenecientes al sector de la economía solidaria, de derecho privado, sin ánimo de lucro, constituidas por trabajadores dependientes, trabajadores asociados o por servidores públicos que ofrecen servicios. 
-          .col-md-3
+          .col-md-3.col-5
             img(src='@/assets/curso/tema1-2-tab2.png', alt='Fondo de empleados')
       .py-4.py-md-5(titulo="Asociaciones mutuales" :icono="require('@/assets/curso/tema1-2-tab-ico3.svg')")
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
             h4 Asociaciones mutuales
             p Son organizaciones privadas sin ánimo de lucro que están constituidas por personas naturales para fomentar la ayuda recíproca entre sus miembros, satisfaciendo sus necesidades mediante la prestación de servicios que contribuyan al mejoramiento de su calidad de vida.
-          .col-md-3
+          .col-md-3.col-5
             img(src='@/assets/curso/tema1-2-tab3.png', alt='Asociaciones mutuales')
       .py-4.py-md-5(titulo="Entidades auxiliares de la economía solidaria" :icono="require('@/assets/curso/tema1-2-tab-ico4.svg')")
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
             h4 Entidades auxiliares de la economía solidaria
             p Son organizaciones que tienen como finalidad realizar actividades para fortalecer al sector solidario. Están constituidas bien sea por organizaciones de la economía solidaria o por personas naturales para realizar actividades orientadas al desarrollo del sector solidario.
-          .col-md-4
+          .col-md-4.col-5
             img(src='@/assets/curso/tema1-2-tab4.png', alt='Entidades auxiliares de la economía solidaria')      
     
 
@@ -414,7 +414,7 @@
         .row.justify-content-end
          .col-md-11
             h5.text-white.px-md-3.mb-0 Para profundizar en las características de estas formas jurídicas asociativas, se puede consultar la normativa en el material complementario. 
-      .col-md-3.contenedor-imagenes
+      .col-md-3.col-5.contenedor-imagenes.mb-3.mb-md-0
         img(src='@/assets/curso/tema1-icono.svg' alt='Imagen decorativa' style="width: 230px")
 
     p.mb-4(data-aos="fade")  Por lo tanto, como se mencionaba, el equipo emprendedor después de modelar su idea de emprendimiento social, continúa con reconocer las características más relevantes de la forma jurídica para que de manera conjunta seleccionen la forma jurídica más apropiada y pertinente para los objetivos estratégicos y la naturaleza y el sentir de los asociados. 
@@ -508,7 +508,7 @@
             h4.text-white.px-md-3.mt-3 Estatutos 
             h5.text-white.px-md-3 En el material complementario se encuentra un ejemplo de los estatutos de la cooperativa multiactiva – “ACTIVACOOP”, cooperativa de aporte y crédito, que comenzó como el fondo de empleados del hospital universitario Clínica San Rafael, y oficialmente se constituyó en 1999 el 28 de diciembre con la firma de 26 asociados. 
             h5.text-white.px-md-3 También se encuentra un documento guía de la Cámara de Comercio de Bogotá del acta de constitución y los estatutos básicos de la cooperativa, el cual sirve de apoyo y facilita la comprensión de los elementos claves a tener en cuenta para la elaboración del acta de constitución y los estatutos de la cooperativa, siendo estos, dos requisitos fundamentales solicitados por las Cámaras de Comercio para su constitución jurídica. 
-      .col-md-3.contenedor-imagenes
+      .col-md-3.col-5.contenedor-imagenes.mb-3.mb-md-0
         img(src='@/assets/curso/tema1-icono.svg' alt='Imagen decorativa', style="width:220px")
 
 
