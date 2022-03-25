@@ -568,7 +568,7 @@
                 | Retirarse voluntariamente de la cooperativa.
         .wrap-player
           audio(controls='')(style= "width: 100%")
-            // source(src='../../public/downloads/Importancia_de_estos_fenomenos_fisicos.mp3' type='audio/mp3')
+            source(src='../../public/downloads/Derechos_del_asociado.mp3' type='audio/mp3')
             |  Your browser does not support the audio tag   
 
     p.mb-4(data-aos="fade") El ejercicio de los derechos estará condicionado al cumplimiento de los deberes. El artículo 24 de la Ley 79 de 1988, establece:
@@ -598,7 +598,7 @@
           p.mb-0 Tanto los deberes y derechos del asociado a las cooperativas van de la mano y buscan promover los principios de adhesión voluntaria, responsable y abierta y de autonomía, autodeterminación y autogobierno, donde cada asociado de una manera consciente y voluntaria no solamente exige sus derechos sino primero cumple con sus deberes, personificando el sentir del sector solidario coherentes con los principios que se profesan. 
         .wrap-player
           audio(controls='')(style= "width: 100%")
-            // source(src='../../public/downloads/Importancia_de_estos_fenomenos_fisicos.mp3' type='audio/mp3')
+            source(src='../../public/downloads/Deberes.mp3' type='audio/mp3')
             |  Your browser does not support the audio tag
 
 </template>
