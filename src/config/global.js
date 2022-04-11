@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Modelo de negocio para organizaciones de economía solidaria',
     descripcionCurso:
-      'El modelo de negocio describe las bases sobre las que una empresa crea, proporciona y capta valor (Osterwalder & Pigneur, 2010); estas bases se distribuyen en nueve bloques que conforman lo que se conoce como lienzo CANVAS. El emprendedor junto con su equipo de trabajo trazan la propuesta de valor e identifican puntos claves para cada área, convirtiéndose en una herramienta útil para el éxito y sostenibilidad empresarial.',
+      'El modelo de negocio describe las bases sobre las que una empresa crea, proporciona y capta valor (Osterwalder & Pigneur, 2010); estas bases se distribuyen en nueve bloques que conforman lo que se conoce como lienzo CANVAS. El emprendedor junto con su equipo de trabajo traza la propuesta de valor e identifican puntos claves para cada área, convirtiéndose en una herramienta útil para el éxito y sostenibilidad empresarial.',
     // imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -287,7 +287,8 @@ export default {
         'http://supersolidaria.gov.co/sites/default/files/public/normativa/ley_2069_del_2020.pdf',
     },
     {
-      texto: 'ActivaCoop. (2021). Estatuto_ActivaCOOP.',
+      texto:
+        'ActivaCoop. (2021). Estatuto de la Cooperativa Multiactiva - “ACTIVACOOP”.',
       tipo: 'Informe',
       descarga: '/downloads/Estatuto_ActivaCOOP.pdf',
     },

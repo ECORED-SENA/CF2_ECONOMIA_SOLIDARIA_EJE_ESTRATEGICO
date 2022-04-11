@@ -290,7 +290,7 @@
     p.mb-5(data-aos="fade") Ahora bien, de acuerdo con toda esta clasificación, se hace necesario conocer su marco normativo más relevante para el impulso del emprendimiento y de las organizaciones de economía solidaria, lo cual se explica en la siguiente tabla: 
 
     .titulo-sexto.color-acento-contenido.mb-4
-        p.mb-0 <b>Tabla 2.</b> Marco normativo de acuerdo a la forma jurídica
+        p.mb-0 <b>Tabla 2.</b> Marco normativo de acuerdo con la forma jurídica
     .tabla-b.tema1-2-tabla1.color-acento-botones.mb-5(data-aos="fade-down")
       table
         thead.tabla-b__header
@@ -417,7 +417,7 @@
       .col-md-3.col-5.contenedor-imagenes.mb-3.mb-md-0
         img(src='@/assets/curso/tema1-icono.svg' alt='Imagen decorativa' style="width: 230px")
 
-    p.mb-4(data-aos="fade")  Por lo tanto, como se mencionaba, el equipo emprendedor después de modelar su idea de emprendimiento social, continúa con reconocer las características más relevantes de la forma jurídica para que de manera conjunta seleccionen la forma jurídica más apropiada y pertinente para los objetivos estratégicos y la naturaleza y el sentir de los asociados. 
+    p.mb-4(data-aos="fade")  Por lo tanto, como se mencionaba, el equipo emprendedor después de modelar su idea de emprendimiento social continúa con reconocer las características más relevantes de la forma jurídica para que de manera conjunta seleccionen la forma jurídica más apropiada y pertinente para los objetivos estratégicos y la naturaleza y el sentir de los asociados. 
 
     p(data-aos="fade")  En consecuencia, una de las formas jurídicas más utilizadas para las organizaciones de economía solidaria son las cooperativas en cualquiera de sus clases; ya que estas a partir de su naturaleza o su razón de ser, ejerce toda actividad económica, social o cultural, es decir, que ofrece un abanico de oportunidades para modelos de negocios para el emprendimiento social. 
 
@@ -507,7 +507,7 @@
          .col-md-11
             h4.text-white.px-md-3.mt-3 Estatutos 
             h5.text-white.px-md-3 En el material complementario se encuentra un ejemplo de los estatutos de la cooperativa multiactiva – “ACTIVACOOP”, cooperativa de aporte y crédito, que comenzó como el fondo de empleados del hospital universitario Clínica San Rafael, y oficialmente se constituyó en 1999 el 28 de diciembre con la firma de 26 asociados. 
-            h5.text-white.px-md-3 También se encuentra un documento guía de la Cámara de Comercio de Bogotá del acta de constitución y los estatutos básicos de la cooperativa, el cual sirve de apoyo y facilita la comprensión de los elementos claves a tener en cuenta para la elaboración del acta de constitución y los estatutos de la cooperativa, siendo estos, dos requisitos fundamentales solicitados por las Cámaras de Comercio para su constitución jurídica. 
+            h5.text-white.px-md-3 También se encuentra un documento guía de la Cámara de Comercio de Bogotá del acta de constitución y los estatutos básicos de la cooperativa, el cual sirve de apoyo y facilita la comprensión de los elementos claves para tener en cuenta para la elaboración del acta de constitución y los estatutos de la cooperativa, siendo estos, dos requisitos fundamentales solicitados por las Cámaras de Comercio para su constitución jurídica. 
       .col-md-3.col-5.contenedor-imagenes.mb-3.mb-md-0
         img(src='@/assets/curso/tema1-icono.svg' alt='Imagen decorativa', style="width:220px")
 

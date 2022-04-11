@@ -11,12 +11,12 @@
 
     p(data-aos="fade") El auge de las organizaciones de economía solidaria implica no solo que sus asociados sientan como propios los valores y principios de la organización, sino también que se apropien de herramientas empresariales que permitan a estas organizaciones su sostenibilidad financiera.
 
-    p.mb-4(data-aos="fade") El lienzo CANVAS o modelo de negocio, tal como lo describe Osterwalder & Pigneur (2010), se distribuye en nueve bloques, cada uno de estos tiene un enfoque claro en las áreas funcionales para la gestión del negocio, facilitando la comprensión y aplicación de lo que se pretende lograr con el emprendimiento en el mediano plazo. Veámos
+    p.mb-4(data-aos="fade") El lienzo CANVAS o modelo de negocio, tal como lo describe Osterwalder & Pigneur (2010), se distribuye en nueve bloques, cada uno de estos tiene un enfoque claro en las áreas funcionales para la gestión del negocio, facilitando la comprensión y aplicación de lo que se pretende lograr con el emprendimiento en el mediano plazo. Veamos
   
     .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-md-12
         .titulo-sexto.color-acento-contenido.mb-3
-          p.mb-0 <b>Figura 1.</b> Bloques del lienzo Canvas
+          p.mb-0 <b>Figura 1.</b> Bloques del lienzo <em>Canvas</em>
       .col-md-10.py-4.px-4.iconos-intro
         .row.justify-content-between
           .col-md-2.col-6.mb-4
