@@ -139,7 +139,8 @@ export default {
     {
       referencia:
         'Unidad Administrativa Especial de Organizaciones Solidarias. UAE. (s.f.). organizaciones de economía solidaria. ',
-      link: 'https://www.uaeos.gov.co/',
+      link:
+        'https://www.uaeos.gov.co/la-entidad/nuestras-organizaciones/Organizaciones-Econom%C3%ADa-Solidaria',
     },
   ],
   glosario: [
