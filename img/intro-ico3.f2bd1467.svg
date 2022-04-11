@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="142" viewBox="0 0 140 142">
+  <g id="Grupo_181588" data-name="Grupo 181588" transform="translate(-705 -672)">
+    <path id="Trazado_209374" data-name="Trazado 209374" d="M102.144,142H37.856C16.948,142,0,124.809,0,103.6V38.4C0,17.191,16.948,0,37.856,0h64.288C123.051,0,140,17.191,140,38.4V103.6c0,21.206-16.949,38.4-37.856,38.4" transform="translate(705 672)" fill="#00a3be"/>
+    <path id="Trazado_209375" data-name="Trazado 209375" d="M37.715,130.455V64.95A27.01,27.01,0,0,1,64.5,37.715h64.414A27.01,27.01,0,0,1,155.69,64.95v65.506a27.01,27.01,0,0,1-26.781,27.235H64.5a27.01,27.01,0,0,1-26.781-27.235" transform="translate(678.298 645.298)" fill="#fff"/>
+    <path id="Icon_ionic-md-paper-plane" data-name="Icon ionic-md-paper-plane" d="M3.375,41.619l18.889,7.652,2.351,25.479,11.8-17.844L52.941,74.751,69.464,3.375Zm46.85,21.619L37.055,48.911,55.309,21.219l-28.8,23.643L15.592,40.607l46.23-26.8Z" transform="translate(739.581 702.811)" fill="#00a3be"/>
+  </g>
+</svg>
